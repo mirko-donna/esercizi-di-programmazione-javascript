@@ -17,3 +17,8 @@
 
   http://www.imparareaprogrammare.it
 */
+var gatti = 44;
+var inFila = 6;
+var fileTotali = Math.ceil(gatti/inFila);
+var gattiMancanti = (fileTotali*inFila)-gatti;
+console.log(`${gatti} gatti in fila per ${inFila} rimasero compatti in ${fileTotali}. Nellultima fila rimasero ${gattiMancanti} posti mancanti.`);
